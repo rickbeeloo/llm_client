@@ -15,7 +15,7 @@ anyhow="1.0.89"
 colorful="0.3.2"
 indenter="0.3.3"
 llm_devices={path="./llm_devices", version="0.0.1"}
-llm_utils={path="../llm_utils", version="0.0.9"}
+llm_utils="*" # pull from crates istead
 serde="1.0.210"
 serde_json="1.0.128"
 serial_test="3.1.1"
